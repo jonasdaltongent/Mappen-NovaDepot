@@ -1,0 +1,31 @@
+{
+  "_uitleg": "Wordt gelezen door _tools/zet_opdracht_klaar.py (zie _tools/CLASSROOM-KOPPELING.md). Dit bestand staat openbaar op GitHub: zet hier nooit een e-mailadres of wachtwoord in. {deadline} vult het script zelf in; de deadline komt uit lesdoelen.json.",
+  "titel": "Werkplek 1 — Mijn NovaDepot-map",
+  "onderwerp": "Digitale competenties",
+  "klassen": [
+    "3ORLO",
+    "4ORLOa",
+    "4ORLOb"
+  ],
+  "punten": 20,
+  "instructie": [
+    "1. Open de lespagina (link) en je werkdocument WP1_Mijn-NovaDepot-map.",
+    "2. Het zip-bestand heb je nodig in stap 3.",
+    "3. Klik op Inleveren, ten laatste {deadline}."
+  ],
+  "bijlagen": [
+    {
+      "soort": "link",
+      "url": "https://jonasdaltongent.github.io/Mappen-NovaDepot/"
+    },
+    {
+      "soort": "kopie",
+      "bestand": "werkdocument/WP1_Mijn-NovaDepot-map.docx",
+      "naam": "WP1_Mijn-NovaDepot-map"
+    },
+    {
+      "soort": "bekijken",
+      "bestand": "werkdocument/NovaDepot-bestanden.zip"
+    }
+  ]
+}

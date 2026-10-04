@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Les 06 · Mijn NovaDepot-map · NovaDepot</title>
+  <link rel="icon" href="assets/novadepot-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-storage="novadepot_map_v1_" data-laatste-stap="6">
+
+<!-- Pictogrammen: eenvoudige lijntekeningen, eigen werk. Gebruik: een svg met class "ic" en daarin use met href naar het symbool. -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 4h12l-2.5 4 2.5 4H5"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M2 5h6a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H2z"/><path d="M22 5h-6a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h7z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.7 2.7L16 10"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4.5 6h.01M4.5 12h.01M4.5 18h.01" stroke-width="3"/></symbol>
+  <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3.5l9.5 17h-19z"/><path d="M12 10v4.5M12 17.5h.01"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.3a2.5 2.5 0 1 1 3.4 2.5c-.6.3-1 .8-1 1.5v.4M12 17h.01"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></symbol>
+  <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5H9l2 2h8.5A1.5 1.5 0 0 1 21 8.5v10a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18.5z"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 20h16"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><path d="M12 15V3M7 8l5-5 5 5"/><path d="M4 14v6h16v-6"/></symbol>
+  <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M7 18.5h10a4 4 0 0 0 .6-8A6 6 0 0 0 6 11.5a3.5 3.5 0 0 0 1 7z"/></symbol>
+  <symbol id="i-pen" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13 7l4 4"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L12 16.9l-5.2 2.8 1-5.9-4.3-4.1 5.9-.8z"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+</svg>
+
+<div class="teacher-banner">Leraarweergave: de roze kaders tonen waar je een screenshot kan plaatsen. Leerlingen zien die kaders niet.</div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html" title="Naar het begin van de les">
+      <img src="assets/novadepot-logo.svg" alt="NovaDepot">
+      <span class="brand-lesson">Les 06 · Mijn NovaDepot-map</span>
+    </a>
+    <span class="topbar-spacer"></span>
+    <img class="dalton-mark" src="assets/dalton-gent-logo.png" alt="GO! Dalton Gent">
+  </div>
+</header>
+
+<div class="layout">
+
+  <!-- ============ LINKS: de route ============ -->
+  <nav class="route" aria-label="Stappenplan">
+    <p class="route-title">Stappenplan</p>
+    <button class="nav-btn" type="button" data-step="start"><span class="nav-num"><svg class="ic" aria-hidden="true"><use href="#i-flag"/></svg></span><span class="nav-lbl">Start</span></button>
+    <button class="nav-btn" type="button" data-step="theorie"><span class="nav-num"><svg class="ic" aria-hidden="true"><use href="#i-book"/></svg></span><span class="nav-lbl">Theoriekaart</span></button>
+
+    <p class="route-group">Je map in Drive</p>
+    <button class="nav-btn" type="button" data-step="1"><span class="nav-num"><span class="nav-n">1</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Klaarzetten</span></button>
+    <button class="nav-btn" type="button" data-step="2"><span class="nav-num"><span class="nav-n">2</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Je map maken</span></button>
+    <button class="nav-btn" type="button" data-step="3"><span class="nav-num"><span class="nav-n">3</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Bestanden ophalen</span></button>
+
+    <p class="route-group">Ordenen en inleveren</p>
+    <button class="nav-btn" type="button" data-step="4"><span class="nav-num"><span class="nav-n">4</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Een goede naam</span></button>
+    <button class="nav-btn" type="button" data-step="5"><span class="nav-num"><span class="nav-n">5</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Op de juiste plaats</span></button>
+    <button class="nav-btn" type="button" data-step="6"><span class="nav-num"><span class="nav-n">6</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Controleren en inleveren</span></button>
+    <button class="nav-btn extra" type="button" data-step="extra"><span class="nav-num"><svg class="ic" aria-hidden="true"><use href="#i-star"/></svg></span><span class="nav-lbl">Extra</span></button>
+  </nav>
+
+  <!-- ============ MIDDEN: één stap tegelijk ============ -->
+  <main id="main">
+
+    <!-- ===== START ===== -->
+    <section class="pane" id="pane-start" aria-labelledby="h-start">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-where">Toegepaste Informatica · les 06</span></div>
+          <h1 id="h-start">Mijn NovaDepot-map</h1>
+        </header>
+        <div class="card-body">
+          <p class="intro">Bij NovaDepot werk je met veel bestanden: leveringsbonnen, facturen, prijslijsten en foto's. Vandaag maak jij een eigen NovaDepot-map in Google Drive, en je geeft elk bestand een naam die zegt wat erin zit.</p>
+
+          <h2 class="sec">Zo werk je</h2>
+          <div class="werkwijze">
+            <div class="werk-tegel"><svg class="ic" aria-hidden="true"><use href="#i-monitor"/></svg><strong>Lees hier</strong><span>Op deze pagina staat wat je moet doen, stap voor stap.</span></div>
+            <div class="werk-tegel"><svg class="ic" aria-hidden="true"><use href="#i-folder"/></svg><strong>Werk in Drive</strong><span>Daar maak je je map en zet je je bestanden.</span></div>
+            <div class="werk-tegel inleveren"><svg class="ic" aria-hidden="true"><use href="#i-doc"/></svg><strong>Schrijf in je werkdocument</strong><span>Dat lever je in. Niets anders.</span></div>
+          </div>
+
+          <h2 class="sec">Na deze les kan je</h2>
+          <ul class="doelen">
+            <li>in Google Drive een map maken, met mappen erin;</li>
+            <li>bestanden uit een zip-bestand in je Drive zetten;</li>
+            <li>een bestand een goede naam geven en in de juiste map zetten.</li>
+          </ul>
+
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Vast?</strong> Kijk eerst op de theoriekaart. Open dan <em>Hulp nodig?</em> onder de stap. Vraag het daarna aan je buur, en pas dan aan je leraar.</p></div>
+
+          <p class="start-cta"><button class="btn btn-primary" type="button" data-goto="1">Start met stap 1 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button></p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===== THEORIEKAART ===== -->
+    <section class="pane" id="pane-theorie" aria-labelledby="h-theorie">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-where">Spiekbriefje</span></div>
+          <h2 id="h-theorie">Theoriekaart</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Alles op één plek. Kom hier terug als je iets niet meer weet.</p>
+
+          <div class="t-grid">
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-layers"/></svg>Zo werkt elke les</h3>
+              <ul>
+                <li>Je start in Classroom, bij de opdracht van vandaag.</li>
+                <li>In de opdracht staan de lespagina en je werkdocument.</li>
+                <li>Klaar? Klik in de opdracht op <span class="ui">Inleveren</span>.</li>
+              </ul>
+            </section>
+
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-cloud"/></svg>Waar staat je bestand?</h3>
+              <table class="t-rows">
+                <tr><th>Downloads</th><td>op <strong>deze computer</strong>. Niet in je Drive: thuis heb je het niet.</td></tr>
+                <tr><th>Google Drive</th><td>in de <strong>cloud</strong>. Op elke computer waarop je aanmeldt.</td></tr>
+              </table>
+            </section>
+
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-download"/></svg>Van de opdracht naar Drive</h3>
+              <ul>
+                <li><strong>Downloaden</strong>: klik op het zip-bestand › <span class="ui">Openen met</span> › <span class="ui">Openen in nieuw tabblad</span> › de pijl linksboven.</li>
+                <li><strong>Uitpakken</strong>: <span class="key">Windows</span> + <span class="key">E</span> › <span class="ui">Downloads</span> › rechtsklik › <span class="ui">Alles uitpakken…</span></li>
+                <li><strong>Uploaden</strong>: in Drive <span class="ui">Nieuw</span> › <span class="ui">Bestanden uploaden</span>.</li>
+              </ul>
+            </section>
+
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-pen"/></svg>De naamafspraak</h3>
+              <p><strong>Wat - Van wie</strong></p>
+              <ul>
+                <li><code>Leveringsbon - Bakkerij Korstjes</code></li>
+                <li><code>Factuur - Papierhandel Vellekens</code></li>
+                <li>Laat <code>.docx</code>, <code>.xlsx</code> of <code>.png</code> achteraan staan.</li>
+              </ul>
+            </section>
+
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-folder"/></svg>Mijn mappen</h3>
+              <div class="tree">
+                <ul>
+                  <li class="fold"><strong>NovaDepot</strong>
+                    <ul>
+                      <li class="fold">Leveringen</li>
+                      <li class="fold">Facturen</li>
+                      <li class="fold">Prijslijsten</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg>Naam wijzigen en verplaatsen</h3>
+              <ul>
+                <li>Rechtsklik op het bestand › <span class="ui">Naam wijzigen</span>.</li>
+                <li>Sleep het bestand naar een map. Of: rechtsklik › <span class="ui">Ordenen</span> › <span class="ui">Verplaatsen</span>.</li>
+              </ul>
+            </section>
+
+            <section class="t-card wide">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg>Woorden</h3>
+              <table class="t-rows">
+                <tr><th>map</th><td>een doos voor bestanden. In een map kunnen ook mappen zitten.</td></tr>
+                <tr><th>bestand</th><td>één document, rekenblad of foto</td></tr>
+                <tr><th>zip-bestand</th><td>één ingepakt bestand met meerdere bestanden erin</td></tr>
+                <tr><th>downloaden</th><td>een bestand van het internet naar deze computer halen</td></tr>
+                <tr><th>uploaden</th><td>een bestand van deze computer naar je Drive zetten</td></tr>
+                <tr><th>extensie</th><td>de letters na de punt, zoals <code>.docx</code>: welk soort bestand het is</td></tr>
+              </table>
+            </section>
+
+            <section class="t-card wide warn">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg>Veelgemaakte fouten</h3>
+              <ul>
+                <li>De map NovaDepot staat in de map <em>Classroom</em>, niet in <span class="ui">Mijn Drive</span>.</li>
+                <li>De bestanden staan nog alleen in Downloads.</li>
+                <li><code>.docx</code> of <code>.png</code> weggehaald bij het hernoemen.</li>
+                <li>Namen met <em>def</em>, <em>nieuw</em> of <em>(2)</em>: die zeggen niet wat erin zit.</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===== STAP 1 ===== -->
+    <section class="pane" id="pane-1" aria-labelledby="h-1">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-step">Stap 1</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-doc"/></svg> Werkdocument</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-folder"/></svg> Drive</span></div>
+          <h2 id="h-1">Klaarzetten</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Je zet je werkdocument en Google Drive klaar. Die heb je de hele les nodig.</p>
+          <div class="todo-box">
+            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3>
+            <ol class="todo">
+              <li>Open je werkdocument <strong>WP1_Mijn-NovaDepot-map</strong>. Het staat in de opdracht, net als deze pagina.</li>
+              <li>Vul bovenaan je <strong>naam</strong>, je <strong>klas</strong> en de <strong>datum</strong> in.</li>
+              <li>Open <strong>drive.google.com</strong> in een nieuw tabblad.</li>
+            </ol>
+          </div>
+          <details class="help"><summary><svg class="ic" aria-hidden="true"><use href="#i-help"/></svg> Hulp nodig?</summary>
+            <div class="help-body"><p>Vind je je werkdocument niet? Kijk opnieuw in de opdracht. Je werkdocument heeft jouw naam in de titel.</p></div>
+          </details>
+          <p class="result"><svg class="ic" aria-hidden="true"><use href="#i-check-circle"/></svg><span><strong>Klaar als:</strong> je werkdocument open is met je naam erin, en Google Drive open is in een ander tabblad.</span></p>
+        </div>
+        <footer class="card-nav">
+          <button class="btn" type="button" data-goto="start"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Start</button>
+          <button class="btn btn-primary" type="button" data-goto="2">Stap 2 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button>
+        </footer>
+      </article>
+    </section>
+
+    <!-- ===== STAP 2 ===== -->
+    <section class="pane" id="pane-2" aria-labelledby="h-2">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-step">Stap 2</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-folder"/></svg> Drive</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-doc"/></svg> Werkdocument, deel 1</span></div>
+          <h2 id="h-2">Je map maken</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Eerst maak je de mappen. Pas daarna komen de bestanden erin.</p>
+          <div class="todo-box">
+            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3>
+            <ol class="todo">
+              <li>Klik in Drive links op <span class="ui">Mijn Drive</span>. Klik dan op <span class="ui">Nieuw</span> › <span class="ui">Map</span>.</li>
+              <li>Typ <code>NovaDepot</code> en klik op <span class="ui">Maken</span>.</li>
+              <li>Dubbelklik op je map <strong>NovaDepot</strong>. Nu ben je in die map.</li>
+              <li>Maak daarin op dezelfde manier <strong>drie</strong> mappen: <code>Leveringen</code>, <code>Facturen</code> en <code>Prijslijsten</code>.</li>
+              <li>Kruis <strong>deel 1</strong> aan in je werkdocument.</li>
+            </ol>
+            <div class="tree">
+              <ul>
+                <li class="fold"><strong>NovaDepot</strong>
+                  <ul>
+                    <li class="fold">Leveringen</li>
+                    <li class="fold">Facturen</li>
+                    <li class="fold">Prijslijsten</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <figure class="shot" data-shot="stap2-nieuwe-map.png" data-caption="Nieuw › Map in Google Drive." data-alt="Het menu Nieuw in Google Drive, met Map."></figure>
+          </div>
+          <details class="help"><summary><svg class="ic" aria-hidden="true"><use href="#i-help"/></svg> Hulp nodig?</summary>
+            <div class="help-body">
+              <p>Bovenaan in Drive zie je waar je bent, bijvoorbeeld <em>Mijn Drive › NovaDepot</em>. Klik op <em>Mijn Drive</em> om terug te gaan.</p>
+              <p>Staat je map in de map <em>Classroom</em>? Maak ze dan opnieuw in <span class="ui">Mijn Drive</span>.</p>
+            </div>
+          </details>
+          <p class="result"><svg class="ic" aria-hidden="true"><use href="#i-check-circle"/></svg><span><strong>Klaar als:</strong> in Mijn Drive je map NovaDepot staat, met drie mappen erin.</span></p>
+        </div>
+        <footer class="card-nav">
+          <button class="btn" type="button" data-goto="1"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 1</button>
+          <button class="btn btn-primary" type="button" data-goto="3">Stap 3 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button>
+        </footer>
+      </article>
+    </section>
+
+    <!-- ===== STAP 3 ===== -->
+    <section class="pane" id="pane-3" aria-labelledby="h-3">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-step">Stap 3</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-monitor"/></svg> Verkenner</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-folder"/></svg> Drive</span></div>
+          <h2 id="h-3">Bestanden ophalen</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Een collega liet vier bestanden achter. Ze zitten samen in één zip-bestand in de opdracht.</p>
+          <div class="todo-box">
+            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3>
+            <ol class="todo">
+              <li>Klik in de opdracht op <code>NovaDepot-bestanden.zip</code> en daarna rechtsboven op <span class="ui">Openen met</span> › <span class="ui">Openen in nieuw tabblad</span>.<span class="sub">In het nieuwe tabblad klik je linksboven op de pijl naar beneden (<span class="ui">Downloaden</span>).</span></li>
+              <li>Open de <strong>Verkenner</strong> met <span class="key">Windows</span> + <span class="key">E</span> en klik links op <span class="ui">Downloads</span>.</li>
+              <li>Klik met de rechtermuisknop op het zip-bestand › <span class="ui">Alles uitpakken…</span> en klik op <span class="ui">Uitpakken</span>.</li>
+              <li>Open in Drive je map <strong>NovaDepot</strong>. Klik op <span class="ui">Nieuw</span> › <span class="ui">Bestanden uploaden</span> en kies de vier bestanden uit de nieuwe map.<span class="sub">Alle vier tegelijk kiezen: <span class="key">Ctrl</span> + <span class="key">A</span>.</span></li>
+            </ol>
+            <figure class="shot" data-shot="stap3-uitpakken.png" data-caption="Rechtsklik op het zip-bestand › Alles uitpakken…" data-alt="Het rechtermuisknopmenu op het zip-bestand in de Verkenner, met Alles uitpakken."></figure>
+          </div>
+          <div class="tip warn"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><p><strong>Downloads staat op deze computer, niet in je Drive.</strong> Thuis heb je die bestanden niet. Daarom zet je ze in Drive.</p></div>
+          <details class="help"><summary><svg class="ic" aria-hidden="true"><use href="#i-help"/></svg> Hulp nodig?</summary>
+            <div class="help-body">
+              <p><strong>Lukt het downloaden niet?</strong> Bekijk dit filmpje van 20 seconden.</p>
+              <figure class="help-video">
+                <video src="assets/video/zip-downloaden.mp4" poster="assets/video/zip-downloaden.jpg" controls muted playsinline preload="none"></video>
+                <figcaption>Klik op het zip-bestand › <span class="ui">Openen met</span> › <span class="ui">Openen in nieuw tabblad</span> › de pijl linksboven (<span class="ui">Downloaden</span>).</figcaption>
+              </figure>
+              <p>Zie je in Downloads alleen het zip-bestand? Dan is het uitpakken niet gelukt. Probeer het nog eens.</p>
+              <p>De vier bestanden staan in een nieuwe map met dezelfde naam als het zip-bestand. Open die map in het uploadvenster.</p>
+            </div>
+          </details>
+          <p class="result"><svg class="ic" aria-hidden="true"><use href="#i-check-circle"/></svg><span><strong>Klaar als:</strong> in je map NovaDepot vier losse bestanden staan.</span></p>
+        </div>
+        <footer class="card-nav">
+          <button class="btn" type="button" data-goto="2"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 2</button>
+          <button class="btn btn-primary" type="button" data-goto="4">Stap 4 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button>
+        </footer>
+      </article>
+    </section>
+
+    <!-- ===== STAP 4 ===== -->
+    <section class="pane" id="pane-4" aria-labelledby="h-4">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-step">Stap 4</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-folder"/></svg> Drive</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-doc"/></svg> Werkdocument, deel 2</span></div>
+          <h2 id="h-4">Een goede naam</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Een goede naam zegt wat erin zit. Zo vindt iedereen het bestand meteen terug.</p>
+
+          <div class="nameplate">
+            <div class="nameplate-head">De naamafspraak van NovaDepot</div>
+            <div class="nameplate-body">
+              <code class="fname"><span class="o">Factuur</span> - <span class="d">Papierhandel Vellekens</span></code>
+              <ul class="legend-name">
+                <li class="o"><strong>Wat is het?</strong> Leveringsbon, Factuur, Prijslijst of Foto</li>
+                <li class="d"><strong>Van wie?</strong> De naam van het bedrijf. Die staat bovenaan in het bestand.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="todo-box">
+            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen? Voor elk bestand:</h3>
+            <ol class="todo">
+              <li>Dubbelklik op het bestand. Lees bovenaan <strong>wat</strong> het is en <strong>van wie</strong>. Sluit het.</li>
+              <li>Klik met de rechtermuisknop op het bestand › <span class="ui">Naam wijzigen</span>.</li>
+              <li>Typ de nieuwe naam: <strong>Wat - Van wie</strong>. Laat <code>.docx</code>, <code>.xlsx</code> of <code>.png</code> achteraan staan.</li>
+              <li>Schrijf de nieuwe naam in <strong>deel 2</strong> van je werkdocument.</li>
+            </ol>
+            <figure class="shot" data-shot="stap4-naam-wijzigen.png" data-caption="Rechtsklik › Naam wijzigen." data-alt="Het rechtermuisknopmenu in Google Drive met Naam wijzigen."></figure>
+          </div>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Het eerste bestand deed je leraar voor:</strong> <code>Leveringsbon - Bakkerij Korstjes</code>. Het staat al in je werkdocument.</p></div>
+          <details class="help"><summary><svg class="ic" aria-hidden="true"><use href="#i-help"/></svg> Hulp nodig? Tips per bestand</summary>
+            <div class="help-body">
+              <table class="mini">
+                <tr><td>factuur def nieuw (2)</td><td>Bovenaan staat <strong>FACTUUR</strong>, daaronder de naam van het bedrijf.</td></tr>
+                <tr><td>lijst</td><td>Kijk naar de eerste twee rijen van het rekenblad.</td></tr>
+                <tr><td>IMG_20261013…</td><td>Het is een <strong>foto</strong>. Het bedrijf staat op het etiket.</td></tr>
+              </table>
+              <p>Zie je <span class="ui">Naam wijzigen</span> niet? Klik één keer op het bestand en dan onder de zoekbalk op <span class="ui">Meer acties</span>.</p>
+            </div>
+          </details>
+          <p class="result"><svg class="ic" aria-hidden="true"><use href="#i-check-circle"/></svg><span><strong>Klaar als:</strong> elk bestand een naam heeft zoals <code>Factuur - Papierhandel Vellekens</code>, met <code>.docx</code>, <code>.xlsx</code> of <code>.png</code> erachter.</span></p>
+        </div>
+        <footer class="card-nav">
+          <button class="btn" type="button" data-goto="3"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 3</button>
+          <button class="btn btn-primary" type="button" data-goto="5">Stap 5 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button>
+        </footer>
+      </article>
+    </section>
+
+    <!-- ===== STAP 5 ===== -->
+    <section class="pane" id="pane-5" aria-labelledby="h-5">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-step">Stap 5</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-folder"/></svg> Drive</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-doc"/></svg> Werkdocument, deel 2</span></div>
+          <h2 id="h-5">Op de juiste plaats</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Zet elk bestand in de map waar je het later zou gaan zoeken.</p>
+          <div class="todo-box">
+            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3>
+            <ol class="todo">
+              <li>Sleep een bestand naar de juiste map.<span class="sub">Of: rechtsklik › <span class="ui">Ordenen</span> › <span class="ui">Verplaatsen</span>, kies de map en klik op <span class="ui">Verplaatsen</span>.</span></li>
+              <li>Doe dat voor alle vier de bestanden. Kijk in de tabel hieronder.</li>
+              <li>Vul in deel 2 van je werkdocument de kolom <em>In welke map?</em> in.</li>
+            </ol>
+            <table class="mini">
+              <tr><th>Map</th><th>Wat hoort erin?</th></tr>
+              <tr><td>Leveringen</td><td>leveringsbonnen en foto's van leveringen</td></tr>
+              <tr><td>Facturen</td><td>facturen: wat NovaDepot moet betalen</td></tr>
+              <tr><td>Prijslijsten</td><td>de prijslijsten van leveranciers</td></tr>
+            </table>
+            <figure class="shot" data-shot="stap5-verplaatsen.png" data-caption="Rechtsklik › Ordenen › Verplaatsen." data-alt="Het menu Ordenen in Google Drive met Verplaatsen."></figure>
+          </div>
+          <details class="help"><summary><svg class="ic" aria-hidden="true"><use href="#i-help"/></svg> Hulp nodig?</summary>
+            <div class="help-body">
+              <p>Een bestand in de verkeerde map? Open die map en verplaats het opnieuw.</p>
+              <p>Bovenaan staat <em>Mijn Drive › NovaDepot › …</em>. Klik op <em>NovaDepot</em> om terug te gaan.</p>
+            </div>
+          </details>
+          <p class="result"><svg class="ic" aria-hidden="true"><use href="#i-check-circle"/></svg><span><strong>Klaar als:</strong> er in NovaDepot geen losse bestanden meer staan. Elk bestand zit in een map.</span></p>
+        </div>
+        <footer class="card-nav">
+          <button class="btn" type="button" data-goto="4"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 4</button>
+          <button class="btn btn-primary" type="button" data-goto="6">Stap 6 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button>
+        </footer>
+      </article>
+    </section>
+
+    <!-- ===== STAP 6 ===== -->
+    <section class="pane" id="pane-6" aria-labelledby="h-6">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-step">Stap 6</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-send"/></svg> Opdracht</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-doc"/></svg> Werkdocument, deel 3</span></div>
+          <h2 id="h-6">Controleren en inleveren</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Bijna klaar. Test eerst of je het onthouden hebt. Er wordt niets bewaard.</p>
+
+          <div class="quiz">
+            <div class="quiz-q" data-ok="Juist. Uitpakken gebeurt op de computer zelf, in Downloads." data-nok="Nog niet. Denk aan stap 3.">
+              <p>1. Je pakt een zip-bestand uit. Waar staan de bestanden dan?</p>
+              <div class="opts">
+                <button type="button">In Google Drive</button>
+                <button type="button" data-right>In Downloads, op deze computer</button>
+                <button type="button">In de opdracht</button>
+              </div>
+              <p class="feedback" role="status"></p>
+            </div>
+            <div class="quiz-q" data-ok="Juist: eerst wat het is, dan van wie." data-nok="Nog niet. De afspraak is Wat - Van wie.">
+              <p>2. Welke naam volgt de afspraak?</p>
+              <div class="opts">
+                <button type="button">factuur def nieuw (2).docx</button>
+                <button type="button" data-right>Factuur - Papierhandel Vellekens.docx</button>
+                <button type="button">Papierhandel.docx</button>
+              </div>
+              <p class="feedback" role="status"></p>
+            </div>
+            <div class="quiz-q" data-ok="Juist. Een foto van een levering hoort bij de leveringen." data-nok="Nog niet. Kijk naar de tabel in stap 5.">
+              <p>3. In welke map zet je een foto van een levering?</p>
+              <div class="opts">
+                <button type="button">Facturen</button>
+                <button type="button" data-right>Leveringen</button>
+                <button type="button">Prijslijsten</button>
+              </div>
+              <p class="feedback" role="status"></p>
+            </div>
+          </div>
+
+          <div class="todo-box">
+            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3>
+            <ol class="todo">
+              <li>Loop de <strong>checklist</strong> na. Staat er nog iets open? Werk het eerst af.</li>
+              <li>Beantwoord de twee vragen van <strong>deel 3</strong> in je werkdocument.</li>
+              <li>Klik in de opdracht op <span class="ui">Inleveren</span>.</li>
+            </ol>
+          </div>
+          <p class="result"><svg class="ic" aria-hidden="true"><use href="#i-check-circle"/></svg><span><strong>Klaar als:</strong> er bij de opdracht <em>Ingeleverd</em> staat.</span></p>
+        </div>
+        <footer class="card-nav">
+          <button class="btn" type="button" data-goto="5"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 5</button>
+          <button class="btn btn-primary" type="button" data-goto="extra">Extra <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button>
+        </footer>
+      </article>
+    </section>
+
+    <!-- ===== EXTRA ===== -->
+    <section class="pane" id="pane-extra" aria-labelledby="h-extra">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-extra">Extra · niet verplicht</span></div>
+          <h2 id="h-extra">Voor wie klaar is</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Begin hier pas nadat je hebt ingeleverd.</p>
+          <div class="todo-box">
+            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat kan je doen?</h3>
+            <ol class="todo">
+              <li><strong>Een kleur.</strong> Klik met de rechtermuisknop op je map NovaDepot › <span class="ui">Ordenen</span> › <span class="ui">Kleur van map</span>.</li>
+              <li><strong>Een ster.</strong> Klik met de rechtermuisknop op je map › <span class="ui">Ordenen</span> › <span class="ui">Toevoegen aan Met ster</span>. Links vind je ze terug bij <em>Met ster</em>.</li>
+            </ol>
+          </div>
+        </div>
+        <footer class="card-nav">
+          <button class="btn" type="button" data-goto="6"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 6</button>
+          <button class="btn" type="button" data-goto="start">Naar het begin</button>
+        </footer>
+      </article>
+    </section>
+  </main>
+
+  <!-- ============ RECHTS: de checklist ============ -->
+  <aside class="checklist leeg" id="checklist" aria-labelledby="h-cl">
+    <div class="cl-head">
+      <h2 id="h-cl">Checklist</h2>
+      <div class="cl-bar" role="progressbar" aria-label="Voortgang" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="cl-fill" id="clFill"></div></div>
+      <p class="cl-count" id="clCount">0 van 0 klaar</p>
+    </div>
+    <div class="cl-body">
+      <div class="cl-group" data-step="1"><h3>1 · Klaarzetten</h3>
+        <label class="cl-item"><input type="checkbox" id="c1a"><span>Werkdocument open, met mijn naam in de titel</span></label>
+        <label class="cl-item"><input type="checkbox" id="c1b"><span>Naam, klas en datum ingevuld</span></label>
+        <label class="cl-item"><input type="checkbox" id="c1c"><span>Drive open in een tabblad</span></label>
+      </div>
+      <div class="cl-group" data-step="2"><h3>2 · Je map maken</h3>
+        <label class="cl-item"><input type="checkbox" id="c2a"><span>Map NovaDepot in Mijn Drive</span></label>
+        <label class="cl-item"><input type="checkbox" id="c2b"><span>Drie mappen erin: Leveringen, Facturen, Prijslijsten</span></label>
+        <label class="cl-item"><input type="checkbox" id="c2c"><span>Deel 1 aangekruist</span></label>
+      </div>
+      <div class="cl-group" data-step="3"><h3>3 · Bestanden ophalen</h3>
+        <label class="cl-item"><input type="checkbox" id="c3a"><span>Zip-bestand gedownload</span></label>
+        <label class="cl-item"><input type="checkbox" id="c3b"><span>Uitgepakt in Downloads</span></label>
+        <label class="cl-item"><input type="checkbox" id="c3c"><span>Vier bestanden in NovaDepot</span></label>
+      </div>
+      <div class="cl-group" data-step="4"><h3>4 · Een goede naam</h3>
+        <label class="cl-item"><input type="checkbox" id="c4a"><span>Drie bestanden een nieuwe naam gegeven</span></label>
+        <label class="cl-item"><input type="checkbox" id="c4b"><span>Elke naam: Wat - Van wie</span></label>
+        <label class="cl-item"><input type="checkbox" id="c4c"><span>Nieuwe namen in deel 2</span></label>
+      </div>
+      <div class="cl-group" data-step="5"><h3>5 · Op de juiste plaats</h3>
+        <label class="cl-item"><input type="checkbox" id="c5a"><span>Elk bestand in een map</span></label>
+        <label class="cl-item"><input type="checkbox" id="c5b"><span>Kolom In welke map? ingevuld</span></label>
+      </div>
+      <div class="cl-group" data-step="6"><h3>6 · Controleren en inleveren</h3>
+        <label class="cl-item"><input type="checkbox" id="c6a"><span>Zelftest gedaan</span></label>
+        <label class="cl-item"><input type="checkbox" id="c6b"><span>Deel 3 ingevuld</span></label>
+        <label class="cl-item"><input type="checkbox" id="c6c"><span>Werkdocument ingeleverd</span></label>
+      </div>
+    </div>
+    <div class="cl-foot">
+      <button class="btn cl-toggle" type="button" id="clToggle" aria-expanded="false">Toon alles</button>
+      <button class="btn" type="button" id="btnReset">Vinkjes wissen</button>
+      <p class="cl-note">Je vinkjes staan alleen op deze computer. Er wordt niets doorgestuurd.</p>
+    </div>
+  </aside>
+</div>
+
+<!-- ============ Klaar! ============ -->
+<div class="klaar-overlay" id="klaar" role="dialog" aria-modal="true" aria-labelledby="h-klaar" hidden>
+  <div class="klaar-card">
+    <svg class="ic" aria-hidden="true"><use href="#i-check-circle"/></svg>
+    <h2 id="h-klaar">Je NovaDepot-map is op orde!</h2>
+    <p>Alles is afgevinkt. Heb je nog tijd? Kijk dan bij <strong>Extra</strong>.</p>
+    <p>Volgende les maak je een <strong>digitaal klassement</strong>: facturen op nummer, leveringsbonnen op datum.</p>
+    <button class="btn btn-primary" type="button" id="klaarSluit">Sluiten</button>
+  </div>
+</div>
+
+<footer class="site">
+  Toegepaste Informatica · GO! Dalton Gent · 2de graad Organisatie en logistiek · NovaDepot is een fictief bedrijf. Alle namen zijn verzonnen.
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
