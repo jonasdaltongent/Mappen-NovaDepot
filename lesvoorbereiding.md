@@ -145,7 +145,7 @@ goede naam) · zelfcontrole · extra (kleur en ster). Verwachte antwoorden: `REA
 | Fase | Tijd | Inhoud |
 |---|---|---|
 | **Instructie** — lesstart | 3' | Dia 2: vijf rommelige bestandsnamen. *Tom zoekt de factuur van Papierhandel Vellekens: welk bestand opent hij?* Antwoord: dat weet hij pas als hij ze opent. |
-| **Instructie** — Ik doe | **5'** | Dia 3–5. Lesdoel (30"), voor en na (1'). **Demo, hardop denkend** (3'): de zip uit de opdracht downloaden (*Openen met › Openen in nieuw tabblad*), uitpakken in de Verkenner — *"dit staat op déze computer, niet in mijn Drive"* — en uploaden naar NovaDepot uit de **nieuwe map** *NovaDepot-bestanden*, niet het zip-bestand. |
+| **Instructie** — Ik doe | **5'** | Dia 3–5. Lesdoel (30"), voor en na (1'). **Demo, hardop denkend** (3'): de zip downloaden via de link in stap 3 van de lespagina (het zip-bestand uit de opdracht in Google Classroom), uitpakken in de Verkenner — *"dit staat op déze computer, niet in mijn Drive"* — en uploaden naar NovaDepot uit de **nieuwe map** *NovaDepot-bestanden*, niet het zip-bestand. |
 | **Instructie** — zo werk je verder | 2' | Dia 6: waar alles staat (de opdracht), de stappen, de hulpvolgorde. |
 | **Keuzewerktijd** | **40'** | Stap 1 tot 6, inleveren inbegrepen. Eerste rondgang: map in *Mijn Drive*? Bestanden van Downloads naar Drive? Tweede rondgang rond stap 4: een nieuwe naam luidop laten lezen. In de laatste minuut: dia 7 (exitvraag, vooruitblik op het klassement) en mondeling: wie niet klaar is, levert toch in. |
 

@@ -124,7 +124,8 @@ Instructietekst (vult het script in):
 - [ ] De lespagina staat online en het adres op dia 6 klopt.
 - [ ] De opdracht staat in de drie klassen, met drie bijlagen en de juiste instelling per bijlage.
 - [ ] Een testleerling krijgt een eigen kopie van het werkdocument, met de eigen naam in de titel.
-- [ ] Met een **leerlingaccount** getest: het zip-bestand downloaden lukt (Openen met › Openen in nieuw tabblad).
+- [ ] Met een **leerlingaccount** getest: de link naar het zip-bestand in stap 3 werkt, en de terugweg via de
+      opdracht (Openen met › Openen in nieuw tabblad) ook.
 - [ ] De map NovaDepot staat bij jou al klaar voor de demo (mappen maken doe je niet voor).
 - [ ] De Dalton-lesfiche staat in je planner (open `dalton-lesfiche.html`, klik op **Kopieer de fiche**, plak).
 - [ ] `presentatie.html` opent op de beamer; `N` toont je notities, `F` is volledig scherm.
@@ -137,7 +138,7 @@ van 3MWb en 3MWWE:
 | Handeling | Klikpad / naam | Bron |
 |---|---|---|
 | Map maken | **Mijn Drive** › **Nieuw** › **Nieuwe map**, naam typen, **Maken** | jouw scherm (04-10-2026); de [Drive-help](https://support.google.com/drive/answer/2375091?hl=nl) schrijft *Map* |
-| Zip downloaden uit de opdracht | klik op het bestand › **Openen met** › **Openen in nieuw tabblad** › de pijl linksboven (**Downloaden**) | Jonas' schermopname (27-09-2026), lesplanner §7 |
+| Zip downloaden | de link in stap 3 opent het zip-bestand uit de opdracht in een nieuw tabblad › de pijl linksboven (**Downloaden**). Terugweg (bij *Hulp nodig?*): in de opdracht klik op het bestand › **Openen met** › **Openen in nieuw tabblad** › de pijl linksboven | Jonas' schermopname (27-09-2026), lesplanner §7; de link opent dezelfde Drive-pagina (`/file/d/…/view`) |
 | Uitpakken | **Windows-toets + E** › **Downloads** › rechtsklik › **Alles uitpakken…** › **Uitpakken** | [Microsoft](https://support.microsoft.com/nl-nl/windows/bestanden-comprimeren-en-uitpakken-8d28fa72-f2f9-712f-67df-f80cf89fd4e5) |
 | Uploaden | **Nieuw** › **Bestand uploaden**, in het venster de uitgepakte map openen, **Ctrl + A**, **Enter** | jouw scherm (04-10-2026); de [Drive-help](https://support.google.com/drive/answer/2424368?hl=nl) schrijft *Bestanden uploaden* |
 | Naam wijzigen | rechtsklik › **Naam wijzigen**; anders bestand aanklikken › **Meer acties** › **Naam wijzigen** | [Drive 2424384](https://support.google.com/drive/answer/2424384?hl=nl) |
@@ -217,6 +218,12 @@ python3 "werkdocument/maak_werkdocumenten.py"
 
 Maakt het werkdocument, de vier rommelbestanden en de zip opnieuw. Vereist `python-docx`, `openpyxl` en
 `Pillow`. Lees eerst de waarschuwing bovenaan het script: de slechte bestandsnamen zijn lesmateriaal.
+
+> [!IMPORTANT]
+> **De link in stap 3** wijst naar het zip-bestand dat de koppeling op 04-10-2026 in Drive zette en aan de
+> drie opdrachten hing (één bestand, gedeeld met 3ORLO, 4ORLOa en 4ORLOb). Maak je de opdracht opnieuw aan,
+> of vervang je het zip-bestand in Classroom, dan krijgt het een nieuw adres. Pas de link in `index.html`
+> dan aan (zoek op `drive.google.com/file`). Leerlingen moeten aangemeld zijn met hun schoolaccount.
 
 ---
 
