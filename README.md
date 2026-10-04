@@ -62,14 +62,20 @@ taken van de huidige stap; in stap 6 staat de hele lijst open.
 
 ## 2. Klaarzetten
 
-### Stap 1 — Publiceren via GitHub Pages ⏳ *nog niet gebeurd*
+### Stap 1 — Publiceren via GitHub Pages ✅ *gebeurd op 04-10-2026*
 
-Gebeurt pas als jij het vraagt. Voorstel voor de repository: `jonasdaltongent/Mappen-NovaDepot`, met
-Pages op branch `main`, map `/ (root)`. Het adres `jonasdaltongent.github.io/Mappen-NovaDepot/` staat al
-op dia 6, in `classroom.json` en in `lesdoelen.json`. Heet de repository anders, pas het dan op die drie
-plaatsen aan (zoek op `Mappen-NovaDepot`).
+Repository [`jonasdaltongent/Mappen-NovaDepot`](https://github.com/jonasdaltongent/Mappen-NovaDepot),
+Pages op branch `main`, map `/ (root)`. De lespagina staat op
+[jonasdaltongent.github.io/Mappen-NovaDepot](https://jonasdaltongent.github.io/Mappen-NovaDepot/); dat
+adres staat ook op dia 6, in `classroom.json` en in `lesdoelen.json`.
 
-### Stap 2 — De opdracht in Classroom, met de koppeling
+### Stap 2 — De opdracht in Classroom, met de koppeling ✅ *gepubliceerd op 04-10-2026*
+
+Gepubliceerd in [3ORLO](https://classroom.google.com/c/MTYyNjY1NjU1OTEx/a/MjU0MzkzNjAwMDJa/details),
+[4ORLOa](https://classroom.google.com/c/MjUzMTgzNDM2NjZa/a/ODg4OTg5NjY4NDE0/details) en
+[4ORLOb](https://classroom.google.com/c/MjUzMTc2OTkwNzNa/a/MjU0MzkzNzc5MzRa/details). Nagekeken vóór
+het publiceren: het werkdocument is een Google-document (kopie per leerling), de zip is alleen te
+bekijken, deadline en punten kloppen.
 
 `classroom.json` zet de opdracht klaar in 3ORLO, 4ORLOa en 4ORLOb (zie `_tools/CLASSROOM-KOPPELING.md`):
 
