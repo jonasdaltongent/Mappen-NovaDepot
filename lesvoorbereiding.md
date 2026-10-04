@@ -19,9 +19,10 @@ overgenomen uit `Leerplannen 2de graad TOINFO.md`.
 > [!NOTE]
 > **Afwijking van de vierfasige opbouw** (*Ik doe → Wij doen → Jullie doen → Jij doet*), op vraag van
 > de leraar: **Ik doe → Jullie doen**. Een instructie van **10 minuten** (lesstart, een demonstratie van
-> **5 minuten**, zo werk je verder), daarna **40 minuten** keuzewerktijd met de lespagina. De "Wij
-> doen"-stap zit in de demo: de leraar haalt de zip op en geeft bestand 1 een naam; dat bestand staat al
-> ingevuld in het werkdocument.
+> **5 minuten**, zo werk je verder), daarna **40 minuten** keuzewerktijd met de lespagina. De demo
+> toont alleen het ophalen (downloaden, uitpakken, uploaden). Stap 4 (een goede naam) doet de leraar
+> **niet klassikaal** voor, "want dan letten ze niet op" (04-10-2026): bestand 1 staat als uitgewerkt
+> voorbeeld in rij 1 van het werkdocument, en de leraar helpt individueel.
 
 > [!NOTE]
 > **Heel eenvoudig gehouden**, op vraag van de leraar (04-10-2026): bij de doorstroomklas (les 2 van
@@ -113,7 +114,7 @@ slepen, typen. Het kaartje *Zo werkt elke les* op de theoriekaart herhaalt het s
 
 - Een computer in lokaal 18 (Windows 11) met het schoolaccount en Google Chrome.
 - Google Drive, Google Documenten, Google Classroom; de Verkenner van Windows.
-- Beamer met `presentatie.html` (8 dia's).
+- Beamer met `presentatie.html` (7 dia's).
 - De lespagina, het werkdocument **WP1_Mijn-NovaDepot-map** en **NovaDepot-bestanden.zip**.
 
 ## 12. Voorbereiding door de leraar
@@ -136,7 +137,7 @@ Onderwerp **Digitale competenties**. Eén opdracht in elke klas, *Werkplek 1 —
 
 **WP1_Mijn-NovaDepot-map** (één pagina, gegenereerd met `werkdocument/maak_werkdocumenten.py`): kopregel ·
 *Zo werk je* · **deel 1** de mappen aankruisen · **deel 2** een tabel *oude naam · wat? · van wie? · nieuwe
-naam · map*, **rij 1 ingevuld** (= de demo) · **deel 3** twee vragen (waar staan je bestanden, waarom een
+naam · map*, **rij 1 ingevuld** (= het uitgewerkte voorbeeld) · **deel 3** twee vragen (waar staan je bestanden, waarom een
 goede naam) · zelfcontrole · extra (kleur en ster). Verwachte antwoorden: `README.md` §4.
 
 ## 15–17. Korte klassikale instructie en demonstratie (Ik doe → Jullie doen)
@@ -144,12 +145,12 @@ goede naam) · zelfcontrole · extra (kleur en ster). Verwachte antwoorden: `REA
 | Fase | Tijd | Inhoud |
 |---|---|---|
 | **Instructie** — lesstart | 3' | Dia 2: vijf rommelige bestandsnamen. *Tom zoekt de factuur van Papierhandel Vellekens: welk bestand opent hij?* Antwoord: dat weet hij pas als hij ze opent. |
-| **Instructie** — Ik doe | **5'** | Dia 3–6. Lesdoel (30"), voor en na (1'). **Demo, hardop denkend:** (a) de zip uit de opdracht downloaden (*Openen met › Openen in nieuw tabblad*), uitpakken in de Verkenner — *"dit staat op déze computer, niet in mijn Drive"* — en uploaden naar NovaDepot (2'); (b) bestand 1 openen, *wat* en *van wie* lezen, hernoemen tot *Leveringsbon - Bakkerij Korstjes*, `.docx` laten staan, naar Leveringen slepen (1'30"). |
-| **Instructie** — zo werk je verder | 2' | Dia 7: waar alles staat (de opdracht), de stappen, de hulpvolgorde. |
-| **Keuzewerktijd** | **40'** | Stap 1 tot 6, inleveren inbegrepen. Eerste rondgang: map in *Mijn Drive*? Bestanden van Downloads naar Drive? Tweede rondgang rond stap 4: een nieuwe naam luidop laten lezen. In de laatste minuut: dia 8 (exitvraag, vooruitblik op het klassement) en mondeling: wie niet klaar is, levert toch in. |
+| **Instructie** — Ik doe | **5'** | Dia 3–5. Lesdoel (30"), voor en na (1'). **Demo, hardop denkend** (3'): de zip uit de opdracht downloaden (*Openen met › Openen in nieuw tabblad*), uitpakken in de Verkenner — *"dit staat op déze computer, niet in mijn Drive"* — en uploaden naar NovaDepot uit de **nieuwe map** *NovaDepot-bestanden*, niet het zip-bestand. |
+| **Instructie** — zo werk je verder | 2' | Dia 6: waar alles staat (de opdracht), de stappen, de hulpvolgorde. |
+| **Keuzewerktijd** | **40'** | Stap 1 tot 6, inleveren inbegrepen. Eerste rondgang: map in *Mijn Drive*? Bestanden van Downloads naar Drive? Tweede rondgang rond stap 4: een nieuwe naam luidop laten lezen. In de laatste minuut: dia 7 (exitvraag, vooruitblik op het klassement) en mondeling: wie niet klaar is, levert toch in. |
 
-Niet voorgedaan: mappen maken (staat als mappenboom op de pagina) en verplaatsen (alleen even getoond bij
-bestand 1).
+Niet voorgedaan: mappen maken (staat als mappenboom op de pagina), een goede naam geven (stap 4: het
+voorbeeld in rij 1 en individuele hulp) en verplaatsen.
 
 ## 18–19. Zelfstandige verwerking en stappenplan
 
@@ -163,12 +164,12 @@ Route · één stap · checklist met 17 taken, vijf vaste blokken per stap.
 
 *Ordenen en inleveren*
 
-4. **Een goede naam** — drie bestanden hernoemen tot *Wat - Van wie*; deel 2. (10')
+4. **Een goede naam** — vier bestanden hernoemen tot *Wat - Van wie*, met rij 1 als voorbeeld; deel 2. (10')
 5. **Op de juiste plaats** — elk bestand in de juiste map; deel 2 afmaken. (5')
 6. **Controleren en inleveren** — zelftest, checklist, deel 3, *Inleveren*. (5')
 7. **Extra (optioneel)** — een kleur en een ster voor de map.
 
-Stap 1 tot 6 samen: **40 minuten**, de keuzewerktijd, inleveren inbegrepen. Dezelfde minuten staan op dia 7
+Stap 1 tot 6 samen: **40 minuten**, de keuzewerktijd, inleveren inbegrepen. Dezelfde minuten staan op dia 6
 en in `dalton-lesfiche.html`.
 
 ## 20. Differentiatie en scaffolding

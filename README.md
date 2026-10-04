@@ -22,7 +22,7 @@ bestanden het moeilijkste. Daarom geen datum, geen versie en geen lage streepjes
 ```text
 W06 - Les 06 - ORLO - Mijn NovaDepot-map/
 ├── index.html                   # de lespagina: route · één stap · checklist
-├── presentatie.html             # 8 dia's voor de lesstart en "Ik doe"
+├── presentatie.html             # 7 dia's voor de lesstart en "Ik doe"
 ├── css/style.css, css/slides.css
 ├── js/script.js, js/slides.js
 ├── assets/
@@ -66,7 +66,7 @@ taken van de huidige stap; in stap 6 staat de hele lijst open.
 
 Gebeurt pas als jij het vraagt. Voorstel voor de repository: `jonasdaltongent/Mappen-NovaDepot`, met
 Pages op branch `main`, map `/ (root)`. Het adres `jonasdaltongent.github.io/Mappen-NovaDepot/` staat al
-op dia 7, in `classroom.json` en in `lesdoelen.json`. Heet de repository anders, pas het dan op die drie
+op dia 6, in `classroom.json` en in `lesdoelen.json`. Heet de repository anders, pas het dan op die drie
 plaatsen aan (zoek op `Mappen-NovaDepot`).
 
 ### Stap 2 — De opdracht in Classroom, met de koppeling
@@ -101,7 +101,7 @@ Instructietekst (vult het script in):
 
 1. Zet eenmalig in Drive **Uploads converteren naar de indeling van een Editor van Google Documenten** aan
    ([Drive-help](https://support.google.com/drive/answer/2424368?hl=nl)).
-2. Upload `werkdocument/WP1_Mijn-NovaDepot-map.docx` **in Drive zelf** (**Nieuw** › **Bestanden uploaden**).
+2. Upload `werkdocument/WP1_Mijn-NovaDepot-map.docx` **in Drive zelf** (**Nieuw** › **Bestand uploaden**).
    Staat er geen `.docx` meer achter de naam? Dan is het een Google-document.
 3. Voeg het in de opdracht toe met **Bijvoegen** › **Drive** en kies **Een kopie maken voor elke
    leerling** ([Classroom-help](https://support.google.com/edu/classroom/answer/6020265?hl=nl)).
@@ -115,7 +115,7 @@ Instructietekst (vult het script in):
 
 ### Afvinklijst vóór de les
 
-- [ ] De lespagina staat online en het adres op dia 7 klopt.
+- [ ] De lespagina staat online en het adres op dia 6 klopt.
 - [ ] De opdracht staat in de drie klassen, met drie bijlagen en de juiste instelling per bijlage.
 - [ ] Een testleerling krijgt een eigen kopie van het werkdocument, met de eigen naam in de titel.
 - [ ] Met een **leerlingaccount** getest: het zip-bestand downloaden lukt (Openen met › Openen in nieuw tabblad).
@@ -130,10 +130,10 @@ van 3MWb en 3MWWE:
 
 | Handeling | Klikpad / naam | Bron |
 |---|---|---|
-| Map maken | **Mijn Drive** › **Nieuw** › **Map**, naam typen, **Maken** | [Drive 2375091](https://support.google.com/drive/answer/2375091?hl=nl) |
+| Map maken | **Mijn Drive** › **Nieuw** › **Nieuwe map**, naam typen, **Maken** | jouw scherm (04-10-2026); de [Drive-help](https://support.google.com/drive/answer/2375091?hl=nl) schrijft *Map* |
 | Zip downloaden uit de opdracht | klik op het bestand › **Openen met** › **Openen in nieuw tabblad** › de pijl linksboven (**Downloaden**) | Jonas' schermopname (27-09-2026), lesplanner §7 |
 | Uitpakken | **Windows-toets + E** › **Downloads** › rechtsklik › **Alles uitpakken…** › **Uitpakken** | [Microsoft](https://support.microsoft.com/nl-nl/windows/bestanden-comprimeren-en-uitpakken-8d28fa72-f2f9-712f-67df-f80cf89fd4e5) |
-| Uploaden | **Nieuw** › **Bestanden uploaden** | [Drive 2424368](https://support.google.com/drive/answer/2424368?hl=nl) |
+| Uploaden | **Nieuw** › **Bestand uploaden**, in het venster de uitgepakte map openen, **Ctrl + A**, **Enter** | jouw scherm (04-10-2026); de [Drive-help](https://support.google.com/drive/answer/2424368?hl=nl) schrijft *Bestanden uploaden* |
 | Naam wijzigen | rechtsklik › **Naam wijzigen**; anders bestand aanklikken › **Meer acties** › **Naam wijzigen** | [Drive 2424384](https://support.google.com/drive/answer/2424384?hl=nl) |
 | Verplaatsen | slepen, of rechtsklik › **Ordenen** › **Verplaatsen** | [Drive 2375091](https://support.google.com/drive/answer/2375091?hl=nl) |
 | Kleur en ster (extra) | rechtsklik › **Ordenen** › **Kleur van map** · **Toevoegen aan Met ster** | idem |
@@ -145,10 +145,13 @@ van 3MWb en 3MWWE:
 
 | Fase | Tijd | Wat |
 |---|---|---|
-| **Instructie** | **10'** | Dia 1–2 lesstart (3'): *waar zit de factuur?* Dia 3–6 demo (5'): de zip uit de opdracht naar Drive (downloaden, uitpakken, uploaden) en bestand 1 een naam geven. Dia 7 *Zo werk je verder* (2') |
-| **Keuzewerktijd** | **40'** | Dia 7 blijft staan; de leerlingen werken stap 1 tot 6 af, inleveren inbegrepen. Dia 8 in de laatste minuut. |
+| **Instructie** | **10'** | Dia 1–2 lesstart (3'): *waar zit de factuur?* Dia 3–5 (5'): lesdoel, voor en na, en de demo: de zip uit de opdracht naar Drive (downloaden, uitpakken, uploaden uit de **nieuwe map**). Dia 6 *Zo werk je verder* (2') |
+| **Keuzewerktijd** | **40'** | Dia 6 blijft staan; de leerlingen werken stap 1 tot 6 af, inleveren inbegrepen. Dia 7 in de laatste minuut. |
 
-Keuzewerktijd = 50 minuten − instructietijd. De minuten per stap staan op dia 7 en in
+**Stap 4 doe je niet klassikaal voor** ("dan letten ze niet op"): bestand 1 staat als voorbeeld in rij 1
+van het werkdocument, en je helpt individueel.
+
+Keuzewerktijd = 50 minuten − instructietijd. De minuten per stap staan op dia 6 en in
 `dalton-lesfiche.html`. Zeg aan het einde mondeling dat wie niet klaar is, toch inlevert.
 
 **Eerste rondgang, kijk alleen naar twee dingen.** Ze blokkeren alles wat erna komt:
@@ -228,3 +231,6 @@ De repository krijgt dezelfde `pre-push` hook als de andere lessen: bij elke pus
 3. **Het filmpje** komt uit les 2 van 3MWb en 3MWWE en toont een ander zip-bestand. Het klikpad is
    hetzelfde. Wil je een eigen filmpje, zet het dan in `assets/video/` met dezelfde naam.
 4. **4ORLOa** heeft deze les op donderdag (7de uur): tot de deadline op vrijdag blijft er weinig tijd.
+5. **Knopnamen van jouw scherm.** *Nieuwe map* en *Bestand uploaden* komen uit jouw screenshot van
+   04-10-2026; de Drive-help schrijft *Map* en *Bestanden uploaden*. De les van 3MWb en 3MWWE gebruikt
+   nog de namen uit de help.

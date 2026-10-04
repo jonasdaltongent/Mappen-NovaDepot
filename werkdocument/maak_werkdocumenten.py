@@ -15,7 +15,8 @@ LET OP bij aanpassen:
  - Elk bestand toont bovenaan in grote letters WAT het is en VAN WIE. Daaruit maakt de leerling de
    nieuwe naam volgens de afspraak "Wat - Van wie", bv. "Factuur - Papierhandel Vellekens".
    Bewust zonder datum, versie of lage streepjes: Jonas vroeg het heel eenvoudig te houden.
- - Bestand 1 (Document zonder titel.docx) doet de leraar voor. Het staat al ingevuld in het werkdocument.
+ - Bestand 1 (Document zonder titel.docx) staat als voorbeeld ingevuld in het werkdocument (rij 1). De
+   leraar doet stap 4 niet klassikaal voor (Jonas, 04-10-2026): de leerling hernoemt alle vier.
  - De bedrijven komen uit de leveringen van les 05 (TV4): Bakkerij Korstjes (7.30 uur, poort 3),
    Papierhandel Vellekens (8.15 uur), Koffiebranderij De Bonenbaas (10.30 uur) en Speelgoed Tolletje
    (13.00 uur, 3 pallets, poort 3). Alle bedrijven, namen en adressen zijn fictief.
@@ -222,7 +223,7 @@ def werkdocument():
 
     # ---- deel 2 ----
     kop(doc, "Deel 2 — Mijn bestanden (stap 4 en 5)")
-    tekst(doc, "De afspraak: Wat - Van wie. Rij 1 deed je leraar voor.", klein=True)
+    tekst(doc, "De afspraak: Wat - Van wie. Rij 1 is een voorbeeld: geef dat bestand ook die naam in je Drive.", klein=True)
     t = doc.add_table(rows=len(ROMMELBESTANDEN) + 1, cols=5)
     t.style = "Table Grid"
     t.alignment = WD_TABLE_ALIGNMENT.CENTER
@@ -232,7 +233,7 @@ def werkdocument():
         schaduw(t.rows[0].cells[i])
     for i, (oud, wat, wie, mp) in enumerate(ROMMELBESTANDEN, start=1):
         cel_tekst(t.rows[i].cells[0], oud, grootte=9.5)
-        if i == 1:     # de demo
+        if i == 1:     # het voorbeeld
             for j, w in enumerate([wat, wie, f"{wat} - {wie}", mp], start=1):
                 cel_tekst(t.rows[i].cells[j], w, cursief=True, grootte=9.5)
         t.rows[i].height = Cm(1.1)
