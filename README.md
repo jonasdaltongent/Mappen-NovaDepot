@@ -223,8 +223,8 @@ Maakt het werkdocument, de vier rommelbestanden en de zip opnieuw. Vereist `pyth
 ## 7. Leerplandoelen in je jaaroverzicht
 
 De repository krijgt dezelfde `pre-push` hook als de andere lessen: bij elke push roept hij
-`_tools/update_leerdoelen.py` aan met `lesdoelen.json`. `BV2_04.03` telt pas mee als het blad **ORLO** in
-`Leerplandoelen 2026-2027.xlsx` er een rij voor heeft (zie het jaarplan, §9).
+`_tools/update_leerdoelen.py` aan met `lesdoelen.json`. De regels zijn bij de push van 04-10-2026 toegevoegd. Het blad
+**ORLO** heeft sinds die dag ook een rij voor `BV2_04.03`, dus dat doel telt mee.
 
 ---
 
