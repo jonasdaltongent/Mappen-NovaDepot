@@ -207,6 +207,11 @@ code { font-family: var(--mono); font-size: .92em; background: var(--peri-soft);
 .help-video video { width: 100%; max-width: 640px; height: auto; display: block; background: #000;
   border: 1px solid var(--line); border-radius: var(--radius-sm); }
 .help-video figcaption { font-size: .88rem; color: var(--muted); margin-top: .3rem; }
+/* instructiefilmpje bij een stap: speelt vanzelf, zonder geluid, en herhaalt zich */
+.clip { margin: 1rem 0 0; }
+.clip video { width: 100%; max-width: 760px; height: auto; display: block; background: #fff;
+  border: 1px solid var(--line); border-radius: var(--radius-sm); }
+.clip figcaption { font-size: .88rem; color: var(--muted); margin-top: .3rem; }
 
 /* ---------- Startpagina ---------- */
 .werkwijze { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; margin: 0 0 .4rem; }

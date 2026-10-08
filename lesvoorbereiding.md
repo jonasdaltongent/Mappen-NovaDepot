@@ -4,7 +4,7 @@ vak: "Toegepaste Informatica"
 studierichting: "Organisatie en logistiek (arbeidsmarktgerichte finaliteit), 2de graad — 3ORLO, 4ORLOa en 4ORLOb"
 lesduur: "1 × 50 minuten: 10 minuten instructie + 40 minuten keuzewerktijd"
 week: "W06 — 2026-2027"
-lokaal: "18 — computers met Windows 11, Google Workspace in Chrome"
+lokaal: "Studie — Chromebook, Google Workspace in Chrome en de app Bestanden (sinds 08-10-2026)"
 lesdag: "3ORLO wo 7 oktober (2de uur), 4ORLOb wo 7 oktober (3de uur), 4ORLOa do 8 oktober (7de uur)"
 leerplan: "Leerplannen 2de graad TOINFO.md (GO! 2A/ORGANIS en 2024/2A/BAS, versie 31-01-2025)"
 jaarplan: "Leerplannen/Lessenplan_TOINFO_ORLO_arbeidsmarkt_2026-2027.md — module 2, les 06"
@@ -112,8 +112,10 @@ slepen, typen. Het kaartje *Zo werkt elke les* op de theoriekaart herhaalt het s
 
 ## 11. Benodigd materiaal en software
 
-- Een computer in lokaal 18 (Windows 11) met het schoolaccount en Google Chrome.
-- Google Drive, Google Documenten, Google Classroom; de Verkenner van Windows.
+- Een Chromebook (in de studie) met het schoolaccount en Google Chrome.
+- Google Drive, Google Documenten, Google Classroom; de app Bestanden van de Chromebook.
+- Op de lespagina een filmpje bij stap 4 (naam wijzigen) en stap 5 (verplaatsen), omdat er in de studie
+  geen klassikale uitleg is.
 - Beamer met `presentatie.html` (7 dia's).
 - De lespagina, het werkdocument **WP1_Mijn-NovaDepot-map** en **NovaDepot-bestanden.zip**.
 
@@ -145,7 +147,7 @@ goede naam) · zelfcontrole · extra (kleur en ster). Verwachte antwoorden: `REA
 | Fase | Tijd | Inhoud |
 |---|---|---|
 | **Instructie** — lesstart | 3' | Dia 2: vijf rommelige bestandsnamen. *Tom zoekt de factuur van Papierhandel Vellekens: welk bestand opent hij?* Antwoord: dat weet hij pas als hij ze opent. |
-| **Instructie** — Ik doe | **5'** | Dia 3–5. Lesdoel (30"), voor en na (1'). **Demo, hardop denkend** (3'): de zip downloaden via de link in stap 3 van de lespagina (het zip-bestand uit de opdracht in Google Classroom), uitpakken in de Verkenner — *"dit staat op déze computer, niet in mijn Drive"* — en uploaden naar NovaDepot uit de **nieuwe map** *NovaDepot-bestanden*, niet het zip-bestand. |
+| **Instructie** — Ik doe | **5'** | Dia 3–5. Lesdoel (30"), voor en na (1'). **Demo, hardop denkend** (3'): de zip downloaden via de link in stap 3 van de lespagina (het zip-bestand uit de opdracht in Google Classroom), uitpakken in de app Bestanden — *"dit staat op déze Chromebook, niet in mijn Drive"* — en kopiëren naar NovaDepot uit de **nieuwe map** *NovaDepot-bestanden*, niet het zip-bestand. |
 | **Instructie** — zo werk je verder | 2' | Dia 6: waar alles staat (de opdracht), de stappen, de hulpvolgorde. |
 | **Keuzewerktijd** | **40'** | Stap 1 tot 6, inleveren inbegrepen. Eerste rondgang: map in *Mijn Drive*? Bestanden van Downloads naar Drive? Tweede rondgang rond stap 4: een nieuwe naam luidop laten lezen. In de laatste minuut: dia 7 (exitvraag, vooruitblik op het klassement) en mondeling: wie niet klaar is, levert toch in. |
 
@@ -185,7 +187,7 @@ en in `dalton-lesfiche.html`.
 ## 21. Controle van begrip
 
 - **Lesstart:** de rommelige namen (dia 2), met vingers.
-- **Tijdens de demo:** *"Waar staat het zip-bestand nu: op deze computer of in Drive?"*
+- **Tijdens de demo:** *"Waar staat het zip-bestand nu: op deze Chromebook of in Drive?"*
 - **Op de lespagina:** *Klaar als* bij elke stap, de checklist, een zelftest van drie vragen in stap 6.
 - **Na de les:** deel 2 van de werkdocumenten: welke naam liep het vaakst mis? Begin les 07 daarmee.
 
@@ -251,4 +253,4 @@ altijd niet zegt wat erin zit of van wie.
 - Vorige/volgende-knoppen; de laatst geopende stap wordt onthouden.
 - *Hulp nodig?* met een filmpje, en een zelftest met directe feedback.
 - Screenshot-plaatsen die alleen verschijnen als het bestand bestaat (`index.html?leraar`).
-- Geen toestelkeuze (lokaal 18, Windows 11), geen logins, tracking of externe scripts.
+- Geen toestelkeuze: alleen Chromebook (de taak gebeurt in de studie, 08-10-2026). Geen logins, tracking of externe scripts.

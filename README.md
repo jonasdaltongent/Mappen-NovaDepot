@@ -5,7 +5,7 @@
 **Lesduur:** 1 × 50 minuten: 10 minuten instructie + 40 minuten keuzewerktijd
 **Context:** NovaDepot, fictief logistiek bedrijf en groothandel — module 2 van het jaarplan
 (`Leerplannen/Lessenplan_TOINFO_ORLO_arbeidsmarkt_2026-2027.md`)
-**Lokaal:** 18 — computers met Windows 11, Google Workspace in Chrome
+**Toestel:** **Chromebook, in de studie** (op jouw vraag, 08-10-2026) — Google Workspace in Chrome en de app *Bestanden*
 **Lesdag:** uur 2 van week 6: 3ORLO wo 7 oktober (2de uur) · 4ORLOb wo 7 oktober (3de uur) · 4ORLOa do 8 oktober (7de uur)
 **Kernleerplandoelen:** `BV2_04.03` (digitale inhouden beheren) en `BK2_02.06` / `BK2_02.06.02` (logische mappenstructuur) — toepassen
 **Deadline:** vrijdag 9 oktober 2026, 20.00 uur · 20 punten
@@ -14,6 +14,19 @@ De leerling maakt in Google Drive een map *NovaDepot* met drie mappen, haalt vie
 een zip-bestand, geeft ze een naam volgens de afspraak **Wat - Van wie** en zet ze in de juiste map. Op
 vraag van Jonas **heel eenvoudig**: zelfs bij de doorstroomklas (les 2 van 3MWWE) was het benoemen van de
 bestanden het moeilijkste. Daarom geen datum, geen versie en geen lage streepjes in de naam.
+
+> [!NOTE]
+> **Chromebook-versie (08-10-2026).** De leerlingen maken deze taak in de studie, met alleen een
+> Chromebook en zonder klassikale uitleg. Daarom:
+> - **Stap 3** gaat via de app **Bestanden**: 2 vingers op het zip-bestand › *Alles uitpakken*, dan
+>   de vier bestanden kopiëren en plakken in *Google Drive › Mijn Drive › NovaDepot*.
+> - **Rechtsklikken** heet overal *klikken met 2 vingers* (of *Alt + klik*).
+> - **Stap 4 en 5** hebben een **filmpje** van 12 à 13 seconden: het voorbeeld uit rij 1, hernoemd en
+>   verplaatst in een demomap, opgenomen met Claude in Chrome in jouw profiel *Jonas*.
+> - Twee dingen die pas bij het opnemen bleken: **Drive selecteert bij *Naam wijzigen* de hele naam,
+>   ook `.docx`** (wie meteen typt, verliest de extensie: de leerling typt ze er dus zelf achter), en
+>   het venster **Verplaatsen opent op *Voorgesteld*** met andere mappen (de leerling klikt eerst naast
+>   *Huidige locatie* op *NovaDepot*).
 
 ---
 
@@ -55,7 +68,7 @@ taken van de huidige stap; in stap 6 staat de hele lijst open.
 - Het **filmpje** bij *Hulp nodig?* in stap 3 toont hoe je de zip downloadt uit de opdracht.
 - De **theoriekaart** heeft een kaartje *Zo werkt elke les*: de leerlingen moeten nog wennen aan het
   systeem (Classroom › lespagina › werkdocument › Inleveren).
-- Alleen Windows 11 (lokaal 18). `localStorage` bewaart alleen de vinkjes en de laatste stap
+- Alleen Chromebook (de taak gebeurt in de studie). `localStorage` bewaart alleen de vinkjes en de laatste stap
   (voorvoegsel `novadepot_map_v1_`), met een wisknop.
 
 ---
@@ -139,11 +152,13 @@ van 3MWb en 3MWWE:
 |---|---|---|
 | Map maken | **Mijn Drive** › **Nieuw** › **Nieuwe map**, naam typen, **Maken** | jouw scherm (04-10-2026); de [Drive-help](https://support.google.com/drive/answer/2375091?hl=nl) schrijft *Map* |
 | Zip downloaden | de link in stap 3 opent het zip-bestand uit de opdracht in een nieuw tabblad › de pijl linksboven (**Downloaden**). Terugweg (bij *Hulp nodig?*): in de opdracht klik op het bestand › **Openen met** › **Openen in nieuw tabblad** › de pijl linksboven | Jonas' schermopname (27-09-2026), lesplanner §7; de link opent dezelfde Drive-pagina (`/file/d/…/view`) |
-| Uitpakken | **Windows-toets + E** › **Downloads** › rechtsklik › **Alles uitpakken…** › **Uitpakken** | [Microsoft](https://support.microsoft.com/nl-nl/windows/bestanden-comprimeren-en-uitpakken-8d28fa72-f2f9-712f-67df-f80cf89fd4e5) |
-| Uploaden | **Nieuw** › **Bestand uploaden**, in het venster de uitgepakte map openen, **Ctrl + A**, **Enter** | jouw scherm (04-10-2026); de [Drive-help](https://support.google.com/drive/answer/2424368?hl=nl) schrijft *Bestanden uploaden* |
-| Naam wijzigen | rechtsklik › **Naam wijzigen**; anders bestand aanklikken › **Meer acties** › **Naam wijzigen** | [Drive 2424384](https://support.google.com/drive/answer/2424384?hl=nl) |
-| Verplaatsen | slepen, of rechtsklik › **Ordenen** › **Verplaatsen** | [Drive 2375091](https://support.google.com/drive/answer/2375091?hl=nl) |
-| Kleur en ster (extra) | rechtsklik › **Ordenen** › **Kleur van map** · **Toevoegen aan Met ster** | idem |
+| Rechtsklikken (Chromebook) | druk of tik met **2 vingers** op de touchpad, of **Alt** + klik | [Chromebook 1047367](https://support.google.com/chromebook/answer/1047367?hl=nl) |
+| App Bestanden openen | **Launcher** (hoek van het scherm) › **Bestanden**, of **Shift + Alt + m**; links **Downloads** | [Chromebook 1700055](https://support.google.com/chromebook/answer/1700055?hl=nl) · [sneltoetsen](https://support.google.com/chromebook/answer/183101?hl=nl) |
+| Uitpakken (Chromebook) | in **Bestanden** 2 vingers op het zip-bestand › **Alles uitpakken**; een dubbelklik opent het zip-bestand links als een map (**Uitwerpen**) | [Chromebook 1700055](https://support.google.com/chromebook/answer/1700055?hl=nl) |
+| Naar Drive (Chromebook) | nieuwe map openen › **Ctrl + A** › **Ctrl + C** › links **Google Drive** › **Mijn Drive** › NovaDepot › **Ctrl + V**; terugweg: Drive › **Nieuw** › **Bestand uploaden** | [Chromebook 1700055](https://support.google.com/chromebook/answer/1700055?hl=nl) (linkerkolom *Google Drive › Mijn Drive*) |
+| Naam wijzigen | 2 vingers › **Naam wijzigen**; de **hele naam** staat geselecteerd, ook `.docx`: typ de extensie mee › **OK**. Anders: bestand aanklikken › **Meer acties** › **Naam wijzigen** | [Drive 2424384](https://support.google.com/drive/answer/2424384?hl=nl) · proef in Drive, 08-10-2026 |
+| Verplaatsen | 2 vingers › **Ordenen** › **Verplaatsen** › naast *Huidige locatie* op **NovaDepot** › map › **Verplaatsen** (het venster opent op *Voorgesteld*) | [Drive 2375091](https://support.google.com/drive/answer/2375091?hl=nl) · proef in Drive, 08-10-2026 |
+| Kleur en ster (extra) | 2 vingers › **Ordenen** › **Kleur van map** · **Toevoegen aan Met ster** | [Drive 2375091](https://support.google.com/drive/answer/2375091?hl=nl) |
 | Inleveren | **Inleveren** · **Inleveren ongedaan maken** | [Classroom 6020285](https://support.google.com/edu/classroom/answer/6020285?hl=nl) |
 
 ---
@@ -205,8 +220,10 @@ Kleine verschillen zijn **goed**: hoofdletters, een spatie meer of minder, *Foto
 
 ## 5. Schermafbeeldingen (optioneel)
 
-Vier plaatsen, geen enkele verplicht. Open `index.html?leraar` om te zien waar ze komen; de lijst staat
-in `assets/screenshots/LEESMIJ.md`. Zolang ze ontbreken, zie je vier 404-meldingen in de console.
+De schermafbeelding van stap 2 staat er al; stap 4 en 5 hebben een filmpje. In stap 3 zijn twee plaatsen
+voor een schermafbeelding van een **Chromebook** (de app *Bestanden*): die kan ik vanaf je Mac niet
+maken. Open `index.html?leraar` om te zien waar ze komen; de lijst staat in
+`assets/screenshots/LEESMIJ.md`. Zolang ze ontbreken, zie je twee 404-meldingen in de console.
 
 ---
 
@@ -239,8 +256,11 @@ De repository krijgt dezelfde `pre-push` hook als de andere lessen: bij elke pus
 
 1. **Haalbaarheid.** Downloaden, uitpakken en uploaden is het riskante stuk (10 minuten). Loopt het
    vast, laat de leerlingen dan in stap 4 maar twee bestanden hernoemen.
-2. **Het venster *Naam wijzigen*.** Ik kon niet nagaan of Drive bij het hernoemen de extensie al mee
-   selecteert. Haalt een leerling `.docx` weg, zeg het dan in de rondgang.
+2. **Het venster *Naam wijzigen*.** Nagegaan op 08-10-2026: Drive selecteert de hele naam, ook `.docx`.
+   De lespagina en het filmpje zeggen daarom: typ de extensie er zelf achter.
+6. **Op een Chromebook in de studie** (nog niet nagekeken op een schoolchromebook): heet de nieuwe map na
+   *Alles uitpakken* echt `NovaDepot-bestanden`, en staat *Google Drive* links in de app *Bestanden*?
+   Zo niet, dan staat bij *Hulp nodig?* de terugweg via *Nieuw › Bestand uploaden*.
 3. **Het filmpje** komt uit les 2 van 3MWb en 3MWWE en toont een ander zip-bestand. Het klikpad is
    hetzelfde. Wil je een eigen filmpje, zet het dan in `assets/video/` met dezelfde naam.
 4. **4ORLOa** heeft deze les op donderdag (7de uur): tot de deadline op vrijdag blijft er weinig tijd.

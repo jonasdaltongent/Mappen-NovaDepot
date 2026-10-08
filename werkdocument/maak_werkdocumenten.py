@@ -263,8 +263,8 @@ def werkdocument():
     kop(doc, "Extra — niet verplicht")
     tekst(doc, "Alleen als je al ingeleverd hebt. Klik in de opdracht op Inleveren ongedaan maken. "
                "Lever daarna opnieuw in.", klein=True)
-    tekst(doc, "a) Geef je map NovaDepot een kleur: rechtsklik › Ordenen › Kleur van map.", vet=True, na=2)
-    tekst(doc, "b) Zet een ster bij je map: rechtsklik › Ordenen › Toevoegen aan Met ster.", vet=True, na=2)
+    tekst(doc, "a) Geef je map NovaDepot een kleur: klik met 2 vingers op de map › Ordenen › Kleur van map.", vet=True, na=2)
+    tekst(doc, "b) Zet een ster bij je map: klik met 2 vingers op de map › Ordenen › Toevoegen aan Met ster.", vet=True, na=2)
 
     doc.save(UIT)
 
